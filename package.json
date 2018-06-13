@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "sphere": "npm run start -- sphere",
+    "cube": "npm run start -- cube"
+  },
   "dependencies": {
     "gm": "^1.23.1"
   }
